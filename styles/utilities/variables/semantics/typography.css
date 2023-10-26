@@ -1,0 +1,66 @@
+@import "../primitives/sizes.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+// Headings
+$heading-font-family: 'Poppins', sans-serif;
+$heading-font-weight: 700;
+
+$h1-font-family: $heading-font-family;
+$h1-font-weight: $heading-font-weight;
+$h1-font-size: $size-64;
+$h1-line0height: $size-72;
+
+$h2-font-family: $heading-font-family;
+$h2-font-weight: $heading-font-weight;
+$h2-font-size: $size-56;
+$h2-line0height: $size-64;
+
+$h3-font-family: $heading-font-family;
+$h3-font-weight: $heading-font-weight;
+$h3-font-size: $size-48;
+$h3-line0height: $size-56;
+
+$h4-font-family: $heading-font-family;
+$h4-font-weight: $heading-font-weight;
+$h4-font-size: $size-32;
+$h4-line0height: $size-48;
+
+$h5-font-family: $heading-font-family;
+$h5-font-weight: $heading-font-weight;
+$h5-font-size: $size-24;
+$h5-line0height: $size-32;
+
+$h6-font-family: $heading-font-family;
+$h6-font-weight: $heading-font-weight;
+$h6-font-size: $size-16;
+$h6-line0height: $size-24;
+
+// Paragraphs
+$body-font-family: 'Poppins', sans-serif;
+$body-font-weight: 400;
+
+$paragraph-xl-font-family: $body-font-family;
+$paragraph-xl-font-weight: $body-font-weight;
+$paragraph-xl-font-size: $size-24;
+$paragraph-xl-line-height: $size-32;
+
+$paragraph-l-font-family: $body-font-family;
+$paragraph-l-font-weight: $body-font-weight;
+$paragraph-l-font-size: $size-16;
+$paragraph-l-line-height: $size-24;
+
+$paragraph-m-font-family: $body-font-family;
+$paragraph-m-font-weight: $body-font-weight;
+$paragraph-m-font-size: $size-12;
+$paragraph-m-line-height: $size-20;
+
+$paragraph-s-font-family: $body-font-family;
+$paragraph-s-font-weight: $body-font-weight;
+$paragraph-s-font-size: $size-8;
+$paragraph-s-line-height: $size-12;
+
+$paragraph-xs-font-family: $body-font-family;
+$paragraph-xs-font-weight: $body-font-weight;
+$paragraph-xs-font-size: $size-4;
+$paragraph-xs-line-height: $size-8;
