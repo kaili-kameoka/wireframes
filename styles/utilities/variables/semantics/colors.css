@@ -1,0 +1,48 @@
+@import "../primitives/colors.css";
+
+// Base
+$text: $gray-800;
+$text-inverted: $gray-100;
+$surface: $gray-50;
+
+// Primary
+$primary: $blue-600;
+$primary-text: $blue-800;
+$primary-text-inverted: $blue-100;
+$primary-surface: $blue-100;
+$primary-border: $blue-200;
+
+// Secondary
+$secondary: $gray-600;
+$secondary-text: $gray-800;
+$secondary-text-inverted: $gray-50;
+$secondary-surface: $gray-100;
+$secondary-border: $gray-200;
+
+// Success
+$success: $green-700;
+$success-text: $green-800;
+$success-text-inverted: $green-50;
+$success-surface: $green-50;
+$success-border: $green-200;
+
+// Danger
+$danger: $red-500;
+$danger-text: $red-700;
+$danger-text-inverted: $red-50;
+$danger-surface: $red-50;
+$danger-border: $red-200;
+
+// Warning
+$warning: $yellow-400;
+$warning-text: $yellow-800;
+$warning-text-inverted: $yellow-50;
+$warning-surface: $yellow-50;
+$warning-border: $yellow-200;
+
+// Info
+$info: $cyan-500;
+$info-text: $cyan-800;
+$info-text-inverted: $cyan-50;
+$info-surface: $cyan-50;
+$info-border: $cyan-200;

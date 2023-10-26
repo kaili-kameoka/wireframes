@@ -1,0 +1,8 @@
+// Primitives
+@import "primitives/colors.css";
+@import "primitives/sizes.css";
+
+// Semantics
+@import "semantics/colors.css";
+@import "semantics/spacing.css";
+@import "semantics/typography.css";

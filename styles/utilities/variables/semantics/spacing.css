@@ -1,0 +1,15 @@
+@import "../primitives/sizes.css";
+
+// Padding
+$padding-xs: $size-8;
+$padding-s: $size-16;
+$padding-m: $size-32;
+$padding-l: $size-64;
+$padding-xl: $size-72;
+
+// Margin
+$margin-xs: $size-8;
+$margin-s: $size-16;
+$margin-m: $size-32;
+$margin-l: $size-64;
+$margin-xl: $size-72;
