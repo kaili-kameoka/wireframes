@@ -1,0 +1,79 @@
+@import "variables/semantics/typography.css";
+
+.h1, h1 {
+	font-family: $h1-font-family;
+	font-weight: $h1-font-weight;
+	font-size: $h1-font-size;
+	line-height: $h1-line0height;
+}
+
+.h2, h2 {
+	font-family: $h2-font-family;
+	font-weight: $h2-font-weight;
+	font-size: $h2-font-size;
+	line-height: $h2-line0height;
+}
+
+.h3, h3 {
+	font-family: $h3-font-family;
+	font-weight: $h3-font-weight;
+	font-size: $h3-font-size;
+	line-height: $h3-line0height;
+}
+
+.h4, h4 {
+	font-family: $h4-font-family;
+	font-weight: $h4-font-weight;
+	font-size: $h4-font-size;
+	line-height: $h4-line0height;
+}
+
+.h5, h5 {
+	font-family: $h5-font-family;
+	font-weight: $h5-font-weight;
+	font-size: $h5-font-size;
+	line-height: $h5-line0height;
+}
+
+.h6, h6 {
+	font-family: $h6-font-family;
+	font-weight: $h6-font-weight;
+	font-size: $h6-font-size;
+	line-height: $h6-line0height;
+}
+
+.paragraph--x-large {
+	font-family: $paragraph-xl-font-family;
+	font-weight: $paragraph-xl-font-weight;
+	font-size: $paragraph-xl-font-size;
+	line-height: $paragraph-xl-line-height;
+}
+
+.paragraph--large {
+	font-family: $paragraph-l-font-family;
+	font-weight: $paragraph-l-font-weight;
+	font-size: $paragraph-l-font-size;
+	line-height: $paragraph-l-line-height;
+}
+
+.paragraph--medium, p {
+	font-family: $paragraph-m-font-family;
+	font-weight: $paragraph-m-font-weight;
+	font-size: $paragraph-m-font-size;
+	line-height: $paragraph-m-line-height;
+}
+
+.paragraph--small {
+	font-family: $paragraph-s-font-family;
+	font-weight: $paragraph-s-font-weight;
+	font-size: $paragraph-s-font-size;
+	line-height: $paragraph-s-line-height;
+}
+
+
+.paragraph--x-small {
+	font-family: $paragraph-xs-font-family;
+	font-weight: $paragraph-xs-font-weight;
+	font-size: $paragraph-xs-font-size;
+	line-height: $paragraph-xs-line-height;
+}

@@ -42,25 +42,25 @@ $body-font-weight: 400;
 
 $paragraph-xl-font-family: $body-font-family;
 $paragraph-xl-font-weight: $body-font-weight;
-$paragraph-xl-font-size: $size-24;
-$paragraph-xl-line-height: $size-32;
+$paragraph-xl-font-size: $size-32;
+$paragraph-xl-line-height: $size-40;
 
 $paragraph-l-font-family: $body-font-family;
 $paragraph-l-font-weight: $body-font-weight;
-$paragraph-l-font-size: $size-16;
-$paragraph-l-line-height: $size-24;
+$paragraph-l-font-size: $size-24;
+$paragraph-l-line-height: $size-32;
 
 $paragraph-m-font-family: $body-font-family;
 $paragraph-m-font-weight: $body-font-weight;
-$paragraph-m-font-size: $size-12;
-$paragraph-m-line-height: $size-20;
+$paragraph-m-font-size: $size-16;
+$paragraph-m-line-height: $size-24;
 
 $paragraph-s-font-family: $body-font-family;
 $paragraph-s-font-weight: $body-font-weight;
-$paragraph-s-font-size: $size-8;
-$paragraph-s-line-height: $size-12;
+$paragraph-s-font-size: $size-12;
+$paragraph-s-line-height: $size-16;
 
 $paragraph-xs-font-family: $body-font-family;
 $paragraph-xs-font-weight: $body-font-weight;
-$paragraph-xs-font-size: $size-4;
-$paragraph-xs-line-height: $size-8;
+$paragraph-xs-font-size: $size-8;
+$paragraph-xs-line-height: $size-12;
