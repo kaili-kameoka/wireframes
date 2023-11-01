@@ -1,2 +1,5 @@
+// Vendor
 @import "@fortawesome/fontawesome-free/css/all.css";
+
+// Local
 @import "styles/utilities/utilities.css";
