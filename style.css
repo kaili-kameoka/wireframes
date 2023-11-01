@@ -1,11 +1,17 @@
-
-// Vendor
+/*
+ * Vendor
+ */
 @import "@fortawesome/fontawesome-free/css/all.css";
 
-// Local
-@import "styles/utilities/base.css";
+/*
+ * Local
+ */
+
+//Utilities
 @import "styles/utilities/utilities.css";
 
+// Components
+@import "styles/components/button";
 section {
 	padding: 16px;
 	margin: 64px 0;

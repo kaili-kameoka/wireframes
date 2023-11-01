@@ -1,0 +1,10 @@
+@import "sizes.css";
+
+$button-font-weight: 700;
+
+.button {
+	display: flex;
+	font-weight: $button-font-weight;
+}
+
+
