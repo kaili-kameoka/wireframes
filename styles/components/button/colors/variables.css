@@ -1,0 +1,38 @@
+@import "../../../utilities/utilities.css";
+
+// Primary
+$button-primary-base-color: $primary-base-color;
+$button-primary-active-color: $blue-700;
+$button-primary-disabled-color: $blue-200;
+$button-primary-text-inverted-color: $primary-text-inverted-color;
+
+// Secondary
+$button-secondary-base-color: $secondary-base-color;
+$button-secondary-active-color: $gray-700;
+$button-secondary-disabled-color: $gray-200;
+$button-secondary-text-inverted-color: $secondary-text-inverted-color;
+
+// Success
+$button-success-base-color: $success-base-color;
+$button-success-active-color: $green-800;
+$button-success-disabled-color: $green-300;
+$button-success-text-inverted-color: $success-text-inverted-color;
+
+// Danger
+$button-danger-base-color: $danger-base-color;
+$button-danger-active-color: $red-700;
+$button-danger-disabled-color: $red-200;
+$button-danger-text-inverted-color: $danger-text-inverted-color;
+
+// Warning
+$button-warning-base-color: $warning-base-color;
+$button-warning-active-color: $yellow-500;
+$button-warning-disabled-color: $yellow-300;
+$button-warning-disabled-text-color: $warning-text-inverted-color;
+$button-warning-text-color: $warning-text-color;
+
+// Info
+$button-info-base-color: $info-base-color;
+$button-info-active-color: $cyan-600;
+$button-info-disabled-color: $cyan-300;
+$button-info-text-color: $info-text-color;

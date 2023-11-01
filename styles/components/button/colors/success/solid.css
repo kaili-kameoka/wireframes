@@ -1,0 +1,27 @@
+@import "../variables.css";
+@import "../../mixins.css";
+
+/*
+ * Solid
+ */
+
+$button-success-solid-default-background-color: $button-success-base-color;
+$button-success-solid-default-text-color: $button-success-text-inverted-color;
+
+.button--success-solid-default {
+	@mixin button-solid $button-success-solid-default-background-color, $button-success-solid-default-text-color;
+}
+
+$button-success-solid-active-background-color: $button-success-active-color;
+$button-success-solid-active-text-color: $button-success-text-inverted-color;
+
+.button--success-solid-active {
+	@mixin button-solid $button-success-solid-active-background-color, $button-success-solid-active-text-color;
+}
+
+$button-success-solid-disabled-background-color: $button-success-disabled-color;
+$button-success-solid-disabled-text-color: $button-success-text-inverted-color;
+
+.button--success-solid-disabled {
+	@mixin button-solid $button-success-solid-disabled-background-color, $button-success-solid-disabled-text-color;
+}

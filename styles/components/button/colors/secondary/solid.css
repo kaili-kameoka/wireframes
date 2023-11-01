@@ -1,0 +1,27 @@
+@import "../variables.css";
+@import "../../mixins.css";
+
+/*
+ * Solid
+ */
+
+$button-secondary-solid-default-background-color: $button-secondary-base-color;
+$button-secondary-solid-default-text-color: $button-secondary-text-inverted-color;
+
+.button--secondary-solid-default {
+	@mixin button-solid $button-secondary-solid-default-background-color, $button-secondary-solid-default-text-color;
+}
+
+$button-secondary-solid-active-background-color: $button-secondary-active-color;
+$button-secondary-solid-active-text-color: $button-secondary-text-inverted-color;
+
+.button--secondary-solid-active {
+	@mixin button-solid $button-secondary-solid-active-background-color, $button-secondary-solid-active-text-color;
+}
+
+$button-secondary-solid-disabled-background-color: $button-secondary-disabled-color;
+$button-secondary-solid-disabled-text-color: $button-secondary-text-inverted-color;
+
+.button--secondary-solid-disabled {
+	@mixin button-solid $button-secondary-solid-disabled-background-color, $button-secondary-solid-disabled-text-color;
+}

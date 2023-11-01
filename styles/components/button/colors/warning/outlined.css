@@ -1,0 +1,27 @@
+@import "../variables.css";
+@import "../../mixins.css";
+
+/*
+ * Outlined
+ */
+
+$button-warning-outlined-default-border-color: $button-warning-base-color;
+$button-warning-outlined-default-text-color: $button-warning-base-color;
+
+.button--warning-outlined-default {
+	@mixin button-outlined $button-warning-outlined-default-border-color, $button-warning-outlined-default-text-color
+}
+
+$button-warning-outlined-active-border-color: $button-warning-active-color;
+$button-warning-outlined-active-text-color: $button-warning-active-color;
+
+.button--warning-outlined-active {
+	@mixin button-outlined $button-warning-outlined-active-border-color, $button-warning-outlined-active-text-color
+}
+
+$button-warning-outlined-disabled-border-color: $button-warning-disabled-color;
+$button-warning-outlined-disabled-text-color: $button-warning-disabled-color;
+
+.button--warning-outlined-disabled {
+	@mixin button-outlined $button-warning-outlined-disabled-border-color, $button-warning-outlined-disabled-text-color
+}

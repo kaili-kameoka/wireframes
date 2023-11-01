@@ -1,0 +1,39 @@
+@import "../../utilities/utilities.css";
+
+@define-mixin button-size $border-radius, $padding-y, $padding-x, $font-size, $line-height {
+	border-radius: $border-radius;
+	padding: $padding-y $padding-x;
+	font-size: $font-size;
+	line-height: $line-height;
+}
+
+$button-small-border-radius: $size-12;
+$button-small-padding-x: $size-24;
+$button-small-padding-y: $size-4;
+$button-small-font-size: $size-12;
+$button-small-line-height: $size-16;
+
+.button--small {
+	@mixin button-size $button-small-border-radius, $button-small-padding-y, $button-small-padding-x, $button-small-font-size, $button-small-line-height;
+}
+
+
+$button-medium-padding-x: $size-24;
+$button-medium-padding-y: $size-4;
+$button-medium-font-size: $size-16;
+$button-medium-line-height: $size-24;
+$button-medium-border-radius: $size-16;
+
+.button--medium {
+	@mixin button-size $button-medium-border-radius, $button-medium-padding-y, $button-medium-padding-x, $button-medium-font-size, $button-medium-line-height;
+}
+
+$button-large-padding-x: $size-32;
+$button-large-padding-y: $size-8;
+$button-large-font-size: $size-24;
+$button-large-line-height: $size-32;
+$button-large-border-radius: $size-24;
+
+.button--large {
+	@mixin button-size $button-large-border-radius, $button-large-padding-y, $button-large-padding-x, $button-large-font-size, $button-large-line-height;
+}

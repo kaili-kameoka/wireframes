@@ -1,12 +1,23 @@
-
-// Vendor
+/*
+ * Vendor
+ */
 @import "@fortawesome/fontawesome-free/css/all.css";
 
-// Local
+/*
+ * Local
+ */
+
+//Utilities
 @import "styles/utilities/base.css";
 @import "styles/utilities/utilities.css";
 
+// Components
+@import "styles/components/components.css";
+
 section {
+	display: flex;
+	flex-direction: column;
+	gap: $size-16;
 	padding: 16px;
 	margin: 64px 0;
 	border-radius: 16px;

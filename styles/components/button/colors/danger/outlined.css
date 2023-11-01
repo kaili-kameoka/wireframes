@@ -1,0 +1,27 @@
+@import "../variables.css";
+@import "../../mixins.css";
+
+/*
+ * Outlined
+ */
+
+$button-danger-outlined-default-border-color: $button-danger-base-color;
+$button-danger-outlined-default-text-color: $button-danger-base-color;
+
+.button--danger-outlined-default {
+	@mixin button-outlined $button-danger-outlined-default-border-color, $button-danger-outlined-default-text-color
+}
+
+$button-danger-outlined-active-border-color: $button-danger-active-color;
+$button-danger-outlined-active-text-color: $button-danger-active-color;
+
+.button--danger-outlined-active {
+	@mixin button-outlined $button-danger-outlined-active-border-color, $button-danger-outlined-active-text-color
+}
+
+$button-danger-outlined-disabled-border-color: $button-danger-disabled-color;
+$button-danger-outlined-disabled-text-color: $button-danger-disabled-color;
+
+.button--danger-outlined-disabled {
+	@mixin button-outlined $button-danger-outlined-disabled-border-color, $button-danger-outlined-disabled-text-color
+}

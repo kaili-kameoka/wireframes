@@ -1,0 +1,24 @@
+@import "../variables.css";
+@import "../../mixins.css";
+
+/*
+ * Link
+ */
+
+$button-success-link-default-text-color: $button-success-base-color;
+
+.button--success-link-default {
+	@mixin button-link $button-success-link-default-text-color;
+}
+
+$button-success-link-active-text-color: $button-success-active-color;
+
+.button--success-link-active {
+	@mixin button-link $button-success-link-active-text-color;
+}
+
+$button-success-link-disabled-text-color: $button-success-disabled-color;
+
+.button--success-link-disabled {
+	@mixin button-link $button-success-link-disabled-text-color;
+}

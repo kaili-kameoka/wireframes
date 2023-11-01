@@ -1,0 +1,14 @@
+@import "../../utilities/utilities.css";
+
+@import "sizes.css";
+@import "colors/colors.css";
+
+$button-font-weight: 700;
+
+.button {
+	display: flex;
+	font-weight: $button-font-weight;
+	text-decoration: none;
+}
+
+
