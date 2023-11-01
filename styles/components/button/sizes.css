@@ -1,37 +1,37 @@
 @import "../../utilities/utilities.css";
 
-$button-small-padding-x: $size-16;
-$button-small-padding-y: $size-4;
+$button-medium-padding-x: $size-24;
+$button-medium-padding-y: $size-4;
 $button-small-font-size: $size-12;
 $button-small-line-height: $size-16;
 $button-small-border-radius: $size-12;
 
 .button--small {
 	border-radius: $button-small-border-radius;
-	padding: $button-small-padding-y $button-small-padding-x;
+	padding: $button-medium-padding-y $button-medium-padding-x;
 	font-size: $button-small-font-size;
 	line-height: $button-small-line-height;
 }
 
 
-$button-medeium-padding-x: $size-16;
-$button-medeium-padding-y: $size-4;
-$button-medeium-font-size: $size-16;
-$button-medeium-line-height: $size-24;
+$button-medium-padding-x: $size-24;
+$button-medium-padding-y: $size-4;
+$button-medium-font-size: $size-16;
+$button-medium-line-height: $size-24;
 $button-medium-border-radius: $size-16;
 
-.button--mdeium {
+.button--medium {
 	border-radius: $button-medium-border-radius;
-	padding: $button-medeium-padding-y $button-medeium-padding-x;
-	font-size: $button-medeium-font-size;
-	line-height: $button-medeium-line-height;
+	padding: $button-medium-padding-y $button-medium-padding-x;
+	font-size: $button-medium-font-size;
+	line-height: $button-medium-line-height;
 }
 
-$button-large-padding-x: $size-40;
-$button-large-padding-y: $size-16;
+$button-large-padding-x: $size-32;
+$button-large-padding-y: $size-8;
 $button-large-font-size: $size-24;
 $button-large-line-height: $size-32;
-$button-large-border-radius: $size-32;
+$button-large-border-radius: $size-24;
 
 .button--large {
 	border-radius: $button-large-border-radius;

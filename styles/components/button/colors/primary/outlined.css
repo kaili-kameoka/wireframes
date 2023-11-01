@@ -1,0 +1,29 @@
+@import "../variables.css";
+
+/*
+ * Outlined
+ */
+
+$button-primary-outlined-default-border-color: $button-primary-base-color;
+$button-primary-outlined-default-text-color: $button-primary-base-color;
+
+.button--primary-outlined-default {
+	border: 1px solid $button-primary-outlined-default-border-color;
+	color: $button-primary-outlined-default-text-color;
+}
+
+$button-primary-outlined-active-border-color: $button-primary-disabled-color;
+$button-primary-outlined-active-text-color: $button-primary-disabled-color;
+
+.button--primary-outlined-active {
+	border: 1px solid $button-primary-outlined-active-border-color;
+	color: $button-primary-outlined-active-text-color;
+}
+
+$button-primary-outlined-disabled-border-color: $button-primary-disabled-color;
+$button-primary-outlined-disabled-text-color: $button-primary-text-inverted-color;
+
+.button--primary-outlined-disabled {
+	border: 1px solid $button-primary-outlined-disabled-border-color;
+	color: $button-primary-outlined-disabled-text-color;
+}

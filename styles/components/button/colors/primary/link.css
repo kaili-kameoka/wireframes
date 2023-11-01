@@ -1,0 +1,23 @@
+@import "../variables.css";
+
+/*
+ * Link
+ */
+
+$button-primary-link-default-text-color: $button-primary-base-color;
+
+.button--primary-link-default {
+	color: $button-primary-link-default-text-color;
+}
+
+$button-primary-link-active-text-color: $button-primary-disabled-color;
+
+.button--primary-link-active {
+	color: $button-primary-link-active-text-color;
+}
+
+$button-primary-link-disabled-text-color: $button-primary-text-inverted-color;
+
+.button--primary-link-disabled {
+	color: $button-primary-link-disabled-text-color;
+}

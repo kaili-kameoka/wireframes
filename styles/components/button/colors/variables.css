@@ -1,0 +1,6 @@
+@import "../../../utilities/utilities.css";
+
+$button-primary-base-color: $primary-base-color;
+$button-primary-active-color: $blue-700;
+$button-primary-disabled-color: $blue-200;
+$button-primary-text-inverted-color: $primary-text-inverted-color;
