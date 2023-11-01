@@ -1,1 +1,13 @@
-@import "styles/utilities/variables/variables.css";
+
+// Vendor
+@import "@fortawesome/fontawesome-free/css/all.css";
+
+// Local
+@import "styles/utilities/base.css";
+@import "styles/utilities/utilities.css";
+
+section {
+	padding: 16px;
+	margin: 64px 0;
+	border-radius: 16px;
+}

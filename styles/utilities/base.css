@@ -1,0 +1,15 @@
+@import "variables/semantics/colors.css";
+@import "variables/semantics/typography.css";
+@import "variables/primitives/sizes.css";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: $surface-color;
+	color: $text-color;
+	font-size: $size-base;
+}
