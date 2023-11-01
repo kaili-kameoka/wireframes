@@ -1,0 +1,31 @@
+@import "variables/semantics/colors.css";
+
+.surface--primary {
+	background-color: $primary-surface-color;
+	color: $primary-text-color;
+}
+
+.surface--secondary {
+	background-color: $secondary-surface-color;
+	color: $secondary-text-color;
+}
+
+.surface--success {
+	background-color: $success-surface-color;
+	color: $secondary-text-color;
+}
+
+.surface--danger {
+	background-color: $danger-surface-color;
+	color: $danger-text-color;
+}
+
+.surface--warning {
+	background-color: $warning-surface-color;
+	color: $warning-text-color;
+}
+
+.surface--info {
+	background-color: $info-surface-color;
+	color: $info-text-color;
+}

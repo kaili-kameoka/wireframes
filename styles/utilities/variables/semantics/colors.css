@@ -1,48 +1,48 @@
 @import "../primitives/colors.css";
 
 // Base
-$text: $gray-800;
-$text-inverted: $gray-100;
-$surface: $gray-50;
+$text-color: $gray-700;
+$text-inverted-color: $gray-100;
+$surface-color: $gray-50;
 
 // Primary
-$primary: $blue-600;
-$primary-text: $blue-800;
-$primary-text-inverted: $blue-100;
-$primary-surface: $blue-100;
-$primary-border: $blue-200;
+$primary-base-color: $blue-600;
+$primary-text-color: $blue-700;
+$primary-text-inverted-color: $blue-50;
+$primary-surface-color: $blue-100;
+$primary-border-color: $blue-300;
 
 // Secondary
-$secondary: $gray-600;
-$secondary-text: $gray-800;
-$secondary-text-inverted: $gray-50;
-$secondary-surface: $gray-100;
-$secondary-border: $gray-200;
+$secondary-base-color: $gray-600;
+$secondary-text-color: $gray-700;
+$secondary-text-inverted-color: $gray-50;
+$secondary-surface-color: $gray-100;
+$secondary-border-color: $gray-200;
 
 // Success
-$success: $green-700;
-$success-text: $green-800;
-$success-text-inverted: $green-50;
-$success-surface: $green-50;
-$success-border: $green-200;
+$success-base-color: $green-700;
+$success-text-color: $green-700;
+$success-text-inverted-color: $green-50;
+$success-surface-color: $green-200;
+$success-border-color: $green-200;
 
 // Danger
-$danger: $red-500;
-$danger-text: $red-700;
-$danger-text-inverted: $red-50;
-$danger-surface: $red-50;
-$danger-border: $red-200;
+$danger-base-color: $red-500;
+$danger-text-color: $red-600;
+$danger-text-inverted-color: $red-50;
+$danger-surface-color: $red-100;
+$danger-border-color: $red-300;
 
 // Warning
-$warning: $yellow-400;
-$warning-text: $yellow-800;
-$warning-text-inverted: $yellow-50;
-$warning-surface: $yellow-50;
-$warning-border: $yellow-200;
+$warning-base-color: $yellow-400;
+$warning-text-color: $yellow-700;
+$warning-text-inverted-color: $yellow-50;
+$warning-surface-color: $yellow-200;
+$warning-border-color: $yellow-300;
 
 // Info
-$info: $cyan-500;
-$info-text: $cyan-800;
-$info-text-inverted: $cyan-50;
-$info-surface: $cyan-50;
-$info-border: $cyan-200;
+$info-base-color: $cyan-500;
+$info-text-color: $cyan-700;
+$info-text-inverted-color: $cyan-50;
+$info-surface-color: $cyan-200;
+$info-border-color: $cyan-300;
