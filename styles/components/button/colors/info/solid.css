@@ -1,0 +1,27 @@
+@import "../variables.css";
+@import "../../mixins.css";
+
+/*
+ * Solid
+ */
+
+$button-info-solid-default-background-color: $button-info-base-color;
+$button-info-solid-default-text-color: $button-info-text-color;
+
+.button--info-solid-default {
+	@mixin button-solid $button-info-solid-default-background-color, $button-info-solid-default-text-color;
+}
+
+$button-info-solid-active-background-color: $button-info-active-color;
+$button-info-solid-active-text-color: $button-info-text-color;
+
+.button--info-solid-active {
+	@mixin button-solid $button-info-solid-active-background-color, $button-info-solid-active-text-color;
+}
+
+$button-info-solid-disabled-background-color: $button-info-disabled-color;
+$button-info-solid-disabled-text-color: $button-info-text-color;
+
+.button--info-solid-disabled {
+	@mixin button-solid $button-info-solid-disabled-background-color, $button-info-solid-disabled-text-color;
+}

@@ -1,0 +1,27 @@
+@import "../variables.css";
+@import "../../mixins.css";
+
+/*
+ * Outlined
+ */
+
+$button-secondary-outlined-default-border-color: $button-secondary-base-color;
+$button-secondary-outlined-default-text-color: $button-secondary-base-color;
+
+.button--secondary-outlined-default {
+	@mixin button-outlined $button-secondary-outlined-default-border-color, $button-secondary-outlined-default-text-color
+}
+
+$button-secondary-outlined-active-border-color: $button-secondary-active-color;
+$button-secondary-outlined-active-text-color: $button-secondary-active-color;
+
+.button--secondary-outlined-active {
+	@mixin button-outlined $button-secondary-outlined-active-border-color, $button-secondary-outlined-active-text-color
+}
+
+$button-secondary-outlined-disabled-border-color: $button-secondary-disabled-color;
+$button-secondary-outlined-disabled-text-color: $button-secondary-disabled-color;
+
+.button--secondary-outlined-disabled {
+	@mixin button-outlined $button-secondary-outlined-disabled-border-color, $button-secondary-outlined-disabled-text-color
+}

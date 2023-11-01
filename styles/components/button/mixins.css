@@ -1,0 +1,15 @@
+@define-mixin button-solid $background-color, $text-color {
+	background-color: $background-color;
+	color: $text-color;
+}
+
+@define-mixin button-outlined $border-color, $text-color {
+	border: 1px solid $border-color;
+	color: $text-color;
+}
+
+@define-mixin button-link $text-color {
+	background-color: transparent;
+	border: none;
+	color: $text-color;
+}

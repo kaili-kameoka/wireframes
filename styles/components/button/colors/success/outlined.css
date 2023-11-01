@@ -1,0 +1,27 @@
+@import "../variables.css";
+@import "../../mixins.css";
+
+/*
+ * Outlined
+ */
+
+$button-success-outlined-default-border-color: $button-success-base-color;
+$button-success-outlined-default-text-color: $button-success-base-color;
+
+.button--success-outlined-default {
+	@mixin button-outlined $button-success-outlined-default-border-color, $button-success-outlined-default-text-color
+}
+
+$button-success-outlined-active-border-color: $button-success-active-color;
+$button-success-outlined-active-text-color: $button-success-active-color;
+
+.button--success-outlined-active {
+	@mixin button-outlined $button-success-outlined-active-border-color, $button-success-outlined-active-text-color
+}
+
+$button-success-outlined-disabled-border-color: $button-success-disabled-color;
+$button-success-outlined-disabled-text-color: $button-success-disabled-color;
+
+.button--success-outlined-disabled {
+	@mixin button-outlined $button-success-outlined-disabled-border-color, $button-success-outlined-disabled-text-color
+}

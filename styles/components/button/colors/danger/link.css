@@ -1,0 +1,24 @@
+@import "../variables.css";
+@import "../../mixins.css";
+
+/*
+ * Link
+ */
+
+$button-danger-link-default-text-color: $button-danger-base-color;
+
+.button--danger-link-default {
+	@mixin button-link $button-danger-link-default-text-color;
+}
+
+$button-danger-link-active-text-color: $button-danger-active-color;
+
+.button--danger-link-active {
+	@mixin button-link $button-danger-link-active-text-color;
+}
+
+$button-danger-link-disabled-text-color: $button-danger-disabled-color;
+
+.button--danger-link-disabled {
+	@mixin button-link $button-danger-link-disabled-text-color;
+}

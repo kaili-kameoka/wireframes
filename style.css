@@ -8,11 +8,16 @@
  */
 
 //Utilities
+@import "styles/utilities/base.css";
 @import "styles/utilities/utilities.css";
 
 // Components
-@import "styles/components/button/button.css";
+@import "styles/components/components.css";
+
 section {
+	display: flex;
+	flex-direction: column;
+	gap: $size-16;
 	padding: 16px;
 	margin: 64px 0;
 	border-radius: 16px;

@@ -1,1 +1,6 @@
 @import "primary/primary.css";
+@import "secondary/secondary.css";
+@import "success/success.css";
+@import "danger/danger.css";
+@import "warning/warning.css";
+@import "info/info.css";

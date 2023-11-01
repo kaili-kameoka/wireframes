@@ -1,0 +1,27 @@
+@import "../variables.css";
+@import "../../mixins.css";
+
+/*
+ * Solid
+ */
+
+$button-danger-solid-default-background-color: $button-danger-base-color;
+$button-danger-solid-default-text-color: $button-danger-text-inverted-color;
+
+.button--danger-solid-default {
+	@mixin button-solid $button-danger-solid-default-background-color, $button-danger-solid-default-text-color;
+}
+
+$button-danger-solid-active-background-color: $button-danger-active-color;
+$button-danger-solid-active-text-color: $button-danger-text-inverted-color;
+
+.button--danger-solid-active {
+	@mixin button-solid $button-danger-solid-active-background-color, $button-danger-solid-active-text-color;
+}
+
+$button-danger-solid-disabled-background-color: $button-danger-disabled-color;
+$button-danger-solid-disabled-text-color: $button-danger-text-inverted-color;
+
+.button--danger-solid-disabled {
+	@mixin button-solid $button-danger-solid-disabled-background-color, $button-danger-solid-disabled-text-color;
+}

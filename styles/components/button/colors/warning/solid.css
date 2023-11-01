@@ -1,0 +1,27 @@
+@import "../variables.css";
+@import "../../mixins.css";
+
+/*
+ * Solid
+ */
+
+$button-warning-solid-default-background-color: $button-warning-base-color;
+$button-warning-solid-default-text-color: $button-warning-text-color;
+
+.button--warning-solid-default {
+	@mixin button-solid $button-warning-solid-default-background-color, $button-warning-solid-default-text-color;
+}
+
+$button-warning-solid-active-background-color: $button-warning-active-color;
+$button-warning-solid-active-text-color: $button-warning-text-color;
+
+.button--warning-solid-active {
+	@mixin button-solid $button-warning-solid-active-background-color, $button-warning-solid-active-text-color;
+}
+
+$button-warning-solid-disabled-background-color: $button-warning-disabled-color;
+$button-warning-solid-disabled-text-color: $button-warning-disabled-text-color;
+
+.button--warning-solid-disabled {
+	@mixin button-solid $button-warning-solid-disabled-background-color, $button-warning-solid-disabled-text-color;
+}

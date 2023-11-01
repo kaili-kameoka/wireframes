@@ -23,7 +23,7 @@ $secondary-border-color: $gray-200;
 $success-base-color: $green-700;
 $success-text-color: $green-700;
 $success-text-inverted-color: $green-50;
-$success-surface-color: $green-200;
+$success-surface-color: $green-100;
 $success-border-color: $green-200;
 
 // Danger
@@ -37,12 +37,12 @@ $danger-border-color: $red-300;
 $warning-base-color: $yellow-400;
 $warning-text-color: $yellow-700;
 $warning-text-inverted-color: $yellow-50;
-$warning-surface-color: $yellow-200;
+$warning-surface-color: $yellow-100;
 $warning-border-color: $yellow-300;
 
 // Info
 $info-base-color: $cyan-500;
-$info-text-color: $cyan-700;
+$info-text-color: $cyan-800;
 $info-text-inverted-color: $cyan-50;
-$info-surface-color: $cyan-200;
+$info-surface-color: $cyan-100;
 $info-border-color: $cyan-300;
