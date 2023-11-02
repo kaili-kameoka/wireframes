@@ -1,6 +1,6 @@
 @import "variables/variables.css";
-@import "typography.css";
-@import "surface.css";
+@import "utilities/styles/typography.css";
+@import "utilities/styles/surface.css";
 
 .container {
 	width: 100%;

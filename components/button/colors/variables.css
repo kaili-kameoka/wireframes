@@ -1,4 +1,4 @@
-@import "../../../utilities/utilities.css";
+@import "../../../utilities/styles/utilities.css";
 
 // Primary
 $button-primary-base-color: $primary-base-color;

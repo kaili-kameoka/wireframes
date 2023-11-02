@@ -8,11 +8,11 @@
  */
 
 //Utilities
-@import "styles/utilities/base.css";
-@import "styles/utilities/utilities.css";
+@import "utilities/styles/base.css";
+@import "utilities/styles/utilities.css";
 
 // Components
-@import "styles/components/components.css";
+@import "components/components.css";
 
 section {
 	display: flex;
