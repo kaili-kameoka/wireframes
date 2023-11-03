@@ -24,7 +24,7 @@ describe('createHeading', () => {
 						toThrowError('The level must be between 1 and 6 inclusive.');
 			});
 	it('should create a paragraph with the h1 class', () => {
-		const heading = createHeading(1, "Hello World!", 'p');
+		const heading = createHeading(1, 'Hello World!', 'p');
 		expect(heading.classList).toContain('h1');
 	});
 });
